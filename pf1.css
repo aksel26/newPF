@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+#image{
+    width:800px;
+    height: 500px;
+    opacity: 0.5;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    padding-right:50px
+    
+}
+
+h1{
+    font-family: 'Bellota Text', cursive;
+    
+}
+h2{
+    padding-bottom: 50px;
+font-family: 'Jeju Gothic', serif;
+}
+
+section{
+    
+    text-align: center;
+
+}
+
+#details{
+    font-size: 30px;
+    
+}

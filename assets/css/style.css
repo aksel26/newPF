@@ -988,7 +988,11 @@ Resume Timeline
     margin-top: -6px;
     text-transform: capitalize;
 }
-
+.center-block{
+    /* display: inline-block; */
+    text-align: center;
+    
+}
 
 
 /* progress-bar */
