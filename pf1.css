@@ -13,24 +13,32 @@
 }
 .container-fluid{
     width:80%;
-    
+    font-family: 'Hanna', sans-serif;   
     
 }
+
 .details_menu{
     list-style: none; 
 }
 .detail{
     opacity: 0;
 }
+
 .about_phrase{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     font-family: 'Hanna', sans-serif;
+    list-style: none; 
+}
+.about_phrase li{
+    margin-bottom: 20px;
+    list-style: none; 
 }
 h1{
     font-family: 'Baloo Paaji';
     text-align: center;
     margin-top: 100px;
     margin-bottom: 150px;
+    
     
 }
 h2{
