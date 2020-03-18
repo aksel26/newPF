@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
+
 
 h1{
     font-family: 'Playfair Display', serif;
@@ -13,19 +12,64 @@ h1{
     
 }
 h2{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 
     font-family: 'Nanum Myeongjo', serif;
 }
 .detail_skill{
 margin-bottom: 100px;
+font-family: 'Nanum Myeongjo', serif;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+.detail_skill ol{
+    /* padding-left: 600px; */
+    text-align: left;
 }
 .detail_skill li{
-    list-style: none;
-    font-weight: bold;
+    /* font-family: 'Nanum Myeongjo', serif; */
+    /* list-style: none; */
+    font-weight: 800;
+
+}
+.detail_skill p{
+    
+    font-weight: 400;
+    
+}
+
+.about_phrase{
+    margin-left: auto;
+margin-right: auto;
+    width: 80%;
+}
+.about_phrase>p{
+    padding-left: 40px;
+    width: 60%;
+    line-height: 200%;
+}
+.about img{
+    text-align: center;
+    
+}
+.row p{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+
+#mainImage{
+    width: 40%;
+    height: 20%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 0;
 }
 #image{
-    width:60%;
+    
+    width:70%;
     height: 80%;
     /* opacity: 0.5; */
     border-radius: 40px;
@@ -35,13 +79,18 @@ margin-bottom: 100px;
     
 }
 .container-fluid{
-    width:80%;
-    
+    width:90%;    
 }
+/* .container-fluid img{
+    height: 20%;
+} */
 .details_menu{
     list-style: none; 
 }
 .detail{
+    opacity: 0;
+}
+.about{
     opacity: 0;
 }
 .about_phrase{
@@ -54,19 +103,39 @@ margin-bottom: 100px;
     list-style: none; 
 }
 
-
-section{
-    
+.about{
     text-align: center;
+}
+section .about_phrase, .detail_skill, .detail_erd h2, .useCase h2{
+    
+    text-align: left;
 
 }
-.row #image{
-    width:100%;
+section .container-fluid{
+    text-align: center;
 }
+
+
 #details{
     font-size: 15px;
-    
 }
+
+.detail_erd, .useCase{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.operation h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* text-align: center; */
+}
+
+
+
 
 /* go to top button */
 
