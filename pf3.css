@@ -1,0 +1,185 @@
+
+
+h1{
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+font-family: 'Teko', sans-serif;
+    
+
+}
+.title{
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    
+}
+h2{
+    padding-bottom: 40px;
+    font-weight: 800;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.detail_skill{
+margin-bottom: 100px;
+font-family: 'Noto Sans KR', sans-serif;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+.detail_skill ol{
+    /* padding-left: 600px; */
+    text-align: left;
+}
+.detail_skill li{
+    /* font-family: 'Nanum Myeongjo', serif; */
+    /* list-style: none; */
+    font-weight: 800;
+
+}
+.detail_skill p{
+    
+    /* font-weight: 400; */
+    
+}
+
+.about_phrase{
+    margin-left: auto;
+margin-right: auto;
+    width: 80%;
+}
+.about_phrase>p{
+    padding-left: 40px;
+    width: 60%;
+    line-height: 200%;
+}
+.about img{
+    text-align: center;
+    
+}
+.row p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+#mainImage{
+    width: 50%;
+    height: 20%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 0;
+}
+
+.details img{
+    width: 60%;
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+.details{
+    /* text-align: left; */
+    /* padding-left: 180px; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details h2{
+    padding-bottom: 20px;
+}
+.row{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row img{
+    width:90%;
+    height: 80%;
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+#image{
+    
+    width:70%;
+    height: 80%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 200px;
+    padding-bottom: 0;
+    /* padding-right:50px */
+    
+}
+/* .container-fluid{
+    width:90%;    
+} */
+/* .container-fluid img{
+    height: 20%;
+} */
+.details_menu{
+    list-style: none; 
+}
+.detail{
+    opacity: 0;
+}
+.about{
+    opacity: 0;
+}
+.about_phrase{
+    margin-bottom: 80px;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none; 
+}
+.about_phrase li{
+    margin-bottom: 20px;
+    list-style: none; 
+}
+
+.about{
+    text-align: center;
+}
+section .about_phrase, .detail_skill, .detail_erd h2, .useCase h2{
+    
+    text-align: left;
+
+}
+section .container-fluid{
+    text-align: center;
+}
+
+
+/* #details{
+    font-size: 15px;
+} */
+
+.detail_erd, .useCase{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.operation h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* text-align: center; */
+}
+
+
+
+
+/* go to top button */
+
+.to-top-btn {
+    background-color: white;
+    padding: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.05), 0 5px 5px 0 rgba(0,0,0,0.05);
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    display: none;
+  }
+  

@@ -1,63 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blindspot Finder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="pf3.css" rel="stylesheet" media="screen">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@700&display=swap" rel="stylesheet">
 </head>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="assets/images/works/portfolio-3.jpg" alt="image"style="height:225px; width:225px" "> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Others
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="portfolio1.html">Momsmap</a>
+            <a class="dropdown-item" href="portfolio2.html">Hipdrobe</a>
           </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <h1 class="title">Blindspot Finder</h1>
+ 
+  <section class="about">
+    
+    <img src="../newPF/assets/images/works/finalOutliers.gif" id="mainImage" height="40%">
+    
+    <div class="about_phrase">
+      <h2 >1. 기획동기</h2>
+    
+      <p>최근 범죄 경향을 보면 절도 등의 계획성 범죄는 줄어들고 폭력 등의 우발성 범죄들이 늘어나는 추세이다.</br> 
+        또한 우발성 범죄의 경우 범인검거에 CCTV 등의 무인 방범시설들의 역할이 중요함을 파악할 수 있다.</p>
+      
+      
+    </div>
+    
+    <div class="about_phrase">
+      <h2>2. 프로젝트 내용</h2>
+      <ul>
+        <li>기간 : 2019/7 - 2019/8</li>
+        <li>팀원 : 김재현(팀장), 김현민, 류현선</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="detail">
+
+    <div class="detail_skill">
+      <h2>3. 사용기술</h2>
+        <ol>
+          <li>Spring Framework</li>
+            <p> : Backend 구현</p>
+          <li>Kakao Maps API</li>
+            <p> : 방범시설 표시 및 지역 검색 기능, 구별 구분 기능</p>
+          <li>R statistics</li>
+            <p> : 범위내 방범시설 갯수에 따른 색상 적용 및 시각화 이미지 생성</p>
+          <li>Oracle DBMS</li>
+            <p>위치 데이터 CRUD</p>
+          <li>Geometric Algebra</li>
+            <p>위도/경도에 따른 정확한 좌표 변환을 통한 2D 맵과의 동기화</p>
+        </ol>
+    </div>
+<!-- 
+    <div class="detail_erd" style="float: none;">
+      <h2>4. WBS</h2>
+      <img src="assets/images/works/hipdrobeWBS.png"  style="width:60%"id="image">
+    </div> -->
+
+<!-- 
+    <div class="useCase">
+      <h2>4. UseCase</h2>
+      <img src="assets/images/works/hipdrobeUsecase.png"  style="width:60%"id="image">
+    </div> -->
+<!-- 
+    <div class="detail_erd" style="float: none;">
+      <h2>5. ERD</h2>
+      <img src="assets/images/works/hipdrobeERD.png"  style="width:60%"id="image">
+    </div> -->
+
+    <div class="details" style="float: none;">
+      <h2>4. 서버구성</h2>
+      <img src="../newPF/assets/images/works/outliers1.png">
+    
+
+      <h2>5. 방범 사각지대 시각화</h2>
+      <img src="../newPF/assets/images/works/outliers3.png" >
+
+      <h2>6. 서울시 구별 범죄 통계</h2>
+      <img src="../newPF/assets/images/works/outliers2.png" >
+    
+    </div>
+    
+
+    <div class="operation">
+    <h2>7. 구현 화면</h2>
+    </div>
+    <!-- <div>회원가입 화면 (Ajax)</div> -->
+    <div class="container-fluid" >
+      <div class="row">
+
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>Intro page</p>
+          <img src="../newPF/assets/images/works/outliersOp1.png"  class="img-responsive" >
         </div>
-      </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>방범 시설 위치정보 시각화</p>
+          <img src="../newPF/assets/images/works/outliersOp2.png" class="img-responsive" >
+        </div>
+     
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>방범 사각지대 시각화</p>
+          <img src="../newPF/assets/images/works/outliersOp3.png" class="img-responsive" >
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>각 구별 범죄 통계정보</p>
+          <img src="../newPF/assets/images/works/outliersOp4.png" class="img-responsive">
+        </div>
+     
+     
+    </div>
+  </div>
+
+  </section>
+
+  <!-- go to top button -->
+  <button class="to-top-btn">
+    <img src="../newPF/assets/images/works/arrow.png" width="24" height="24">
+  </button>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="pf3.js"></script>
+
 </body>
+
 </html>

@@ -22,12 +22,19 @@
 }
 .detail{
     opacity: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about_phrase{
+    font-weight: 600;
     margin-bottom: 80px;
-    font-family: 'Hanna', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     list-style: none; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about_phrase li{
     margin-bottom: 20px;
@@ -42,22 +49,35 @@ h1{
     
 }
 h2{
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 20px;
 
     font-family: 'Hanna', sans-serif;
 }
 
-section{
+.mainImage{
+    text-align: center; 
     
-    text-align: center;
-
 }
+.mainImage img{
+    width:40%;
+    height: 60%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+
 .row #image{
     width:100%;
 }
 #details{
     font-size: 15px;
     
+}
+
+.about{
+    padding-bottom: 60px;
 }
 
 /* go to top button */
