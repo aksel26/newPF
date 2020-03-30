@@ -40,6 +40,8 @@ $(".row img").each(function () {
 
 
 
+
+
 function topBtn() {
     var windowBottom = $(window).scrollTop() + $(window).height();
     var detail = $('.detail');
