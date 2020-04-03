@@ -9,11 +9,6 @@ $('.row #details').hide();
 //     });
 // });
 
-
-
-
-
-
 $(".row #image").each(function () {
     $(this).click(function () {
         // console.log($(this));
